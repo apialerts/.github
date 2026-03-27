@@ -2,8 +2,8 @@
   <img src="https://raw.githubusercontent.com/apialerts/.github/refs/heads/main/assets/logo.png" width="100" alt="API Alerts" />
 </p>
 
-<h2 align="center">Effortless Project Notifications<br>
-<sub>Send once, deliver everywhere.</sub></h2>
+<h3 align="center">Effortless Project Notifications<br>
+Send once, deliver everywhere.</h3>
 
 <p align="center">
   <a href="https://apialerts.com">Website</a> &bull;
