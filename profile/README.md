@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/apialerts/.github/main/assets/logo.png" width="100" alt="API Alerts" />
+  <img src="https://raw.githubusercontent.com/apialerts/.github/refs/heads/main/assets/logo.png" width="100" alt="API Alerts" />
 </p>
 
 <h2 align="center">Effortless Project Notifications<br>
-<sub>Send once, deliver everywhere.</sub></h3>
+<sub>Send once, deliver everywhere.</sub></h2>
 
 <p align="center">
   <a href="https://apialerts.com">Website</a> &bull;
@@ -11,8 +11,6 @@
   <a href="https://apps.apple.com/us/app/api-alerts/id6476410789">App Store</a> &bull;
   <a href="https://play.google.com/store/apps/details?id=com.apialerts">Google Play</a>
 </p>
-
----
 
 API Alerts is an event notification platform. Send events from your code and get notified instantly on your phone.
 
