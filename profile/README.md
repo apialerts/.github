@@ -1,14 +1,15 @@
 <p align="center">
-  <a href="https://apialerts.com"><strong>apialerts.com</strong></a>
+  <img src="https://raw.githubusercontent.com/apialerts/.github/main/assets/logo.png" width="100" alt="API Alerts" />
 </p>
 
-<h3 align="center">Effortless Project Notifications</h3>
-<p align="center">Send once, deliver everywhere.</p>
+<h2 align="center">Effortless Project Notifications<br>
+<sub>Send once, deliver everywhere.</sub></h3>
 
 <p align="center">
+  <a href="https://apialerts.com">Website</a> &bull;
   <a href="https://apialerts.com/docs">Documentation</a> &bull;
-  <a href="https://apps.apple.com/app/api-alerts/id6476187906">App Store</a> &bull;
-  <a href="https://play.google.com/store/apps/details?id=com.apialerts.app">Google Play</a>
+  <a href="https://apps.apple.com/us/app/api-alerts/id6476410789">App Store</a> &bull;
+  <a href="https://play.google.com/store/apps/details?id=com.apialerts">Google Play</a>
 </p>
 
 ---
