@@ -60,10 +60,16 @@ All SDKs are being updated with new features and improvements. See [Coming Soon]
 
 ### Tools
 
-|               | GitHub Repo                                                          | Version                                                                              |
-|---------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| CLI           | [cli](https://github.com/apialerts/cli)                             | ![GitHub release](https://img.shields.io/github/v/release/apialerts/cli?filter=!*-*) |
-| GitHub Action | [notify-action](https://github.com/apialerts/notify-action)         | ![GitHub release](https://img.shields.io/github/v/release/apialerts/notify-action?filter=!*-*) |
+|               | GitHub Repo                                                 | Version                                                                              | Platforms                               |
+|---------------|-------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------|
+| CLI           | [cli](https://github.com/apialerts/cli)                     | ![GitHub release](https://img.shields.io/github/v/release/apialerts/cli?filter=!*-*) | macOS, Linux (apt,rpm,aur), Windows, GO |
+
+### Integrations
+
+|               | GitHub Repo                                                 | Version                                                                                        |
+|---------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| GitHub Action | [notify-action](https://github.com/apialerts/notify-action) | ![GitHub release](https://img.shields.io/github/v/release/apialerts/notify-action?filter=!*-*) |
+| Zapier        | [zapier](https://github.com/apialerts/zapier)               | v3 Coming Soon                                                                                 |
 
 ### Destinations
 
