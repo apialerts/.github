@@ -12,7 +12,7 @@ Send once, deliver everywhere.</h3>
   <a href="https://play.google.com/store/apps/details?id=com.apialerts">Google Play</a>
 </p>
 
-API Alerts is an event notification platform. Send events from your code and get notified instantly on your phone.
+API Alerts is an event notification platform. Send one event from your code and deliver it to push, Slack, Discord, email, SMS, WhatsApp, or a webhook.
 
 Minimal:
 ```bash
@@ -39,24 +39,22 @@ See the full [API Reference](https://apialerts.com/docs/api-reference/introducti
 
 ### SDKs
 
-Fire and forget philosophy.
+Fire and forget philosophy. Configure once, send from anywhere.
 
-|            | GitHub Repo                                                       | Version                                                                                         |
-|------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| C#         | [apialerts-csharp](https://github.com/apialerts/apialerts-csharp) | ![NuGet](https://img.shields.io/nuget/v/APIAlerts)                                              |
-| Dart       | [apialerts-dart](https://github.com/apialerts/apialerts-dart)     | Coming Soon                                                                                     |
-| Godot      | [apialerts-godot](https://github.com/apialerts/apialerts-godot)   | Coming Soon                                                                                     |
-| Go         | [apialerts-go](https://github.com/apialerts/apialerts-go)         | ![GitHub tag](https://img.shields.io/github/v/tag/apialerts/apialerts-go?filter=!*-*)           |
-| Java       | [apialerts-java](https://github.com/apialerts/apialerts-java)     | Coming Soon                                                                                     |
-| JavaScript | [apialerts-js](https://github.com/apialerts/apialerts-js)         | ![npm](https://img.shields.io/npm/v/apialerts-js)                                               |
-| Kotlin     | [apialerts-kotlin](https://github.com/apialerts/apialerts-kotlin) | ![Maven Central](https://img.shields.io/maven-central/v/com.apialerts/client?versionPrefix=1.0) |
-| PHP        | [apialerts-php](https://github.com/apialerts/apialerts-php)       | Coming Soon                                                                                     |
-| Python     | [apialerts-python](https://github.com/apialerts/apialerts-python) | ![PyPI](https://img.shields.io/pypi/v/apialerts)                                                |
-| Ruby       | [apialerts-ruby](https://github.com/apialerts/apialerts-ruby)     | Coming Soon                                                                                     |
-| Rust       | [apialerts-rust](https://github.com/apialerts/apialerts-rust)     | ![crates.io](https://img.shields.io/crates/v/apialerts)                                         |
-| Swift      | [apialerts-swift](https://github.com/apialerts/apialerts-swift)   | ![GitHub tag](https://img.shields.io/github/v/tag/apialerts/apialerts-swift?filter=!*-*)        |
-
-All SDKs are being updated with new features and improvements. See [Coming Soon](#coming-soon) below.
+|            | GitHub Repo                                                       | Version                                                                                       |
+|------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| C#         | [apialerts-csharp](https://github.com/apialerts/apialerts-csharp) | ![NuGet](https://img.shields.io/nuget/v/ApiAlerts)                                             |
+| Dart       | [apialerts-dart](https://github.com/apialerts/apialerts-dart)     | ![pub](https://img.shields.io/pub/v/apialerts)                                                 |
+| Godot      | [apialerts-godot](https://github.com/apialerts/apialerts-godot)   | ![GitHub tag](https://img.shields.io/github/v/tag/apialerts/apialerts-godot?filter=!*-*)       |
+| Go         | [apialerts-go](https://github.com/apialerts/apialerts-go)         | ![GitHub tag](https://img.shields.io/github/v/tag/apialerts/apialerts-go?filter=!*-*)          |
+| Java       | [apialerts-java](https://github.com/apialerts/apialerts-java)     | via [Kotlin](https://github.com/apialerts/apialerts-kotlin)                                    |
+| JavaScript | [apialerts-js](https://github.com/apialerts/apialerts-js)         | ![npm](https://img.shields.io/npm/v/apialerts)                                                 |
+| Kotlin     | [apialerts-kotlin](https://github.com/apialerts/apialerts-kotlin) | ![Maven Central](https://img.shields.io/maven-central/v/com.apialerts/client?versionPrefix=1) |
+| PHP        | [apialerts-php](https://github.com/apialerts/apialerts-php)       | ![Packagist](https://img.shields.io/packagist/v/apialerts/apialerts)                          |
+| Python     | [apialerts-python](https://github.com/apialerts/apialerts-python) | ![PyPI](https://img.shields.io/pypi/v/apialerts)                                               |
+| Ruby       | [apialerts-ruby](https://github.com/apialerts/apialerts-ruby)     | ![Gem](https://img.shields.io/gem/v/apialerts)                                                 |
+| Rust       | [apialerts-rust](https://github.com/apialerts/apialerts-rust)     | ![crates.io](https://img.shields.io/crates/v/apialerts)                                        |
+| Swift      | [apialerts-swift](https://github.com/apialerts/apialerts-swift)   | ![GitHub tag](https://img.shields.io/github/v/tag/apialerts/apialerts-swift?filter=!*-*)       |
 
 ### Tools
 
@@ -69,21 +67,23 @@ All SDKs are being updated with new features and improvements. See [Coming Soon]
 |               | GitHub Repo                                                 | Version                                                                                        |
 |---------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | GitHub Action | [notify-action](https://github.com/apialerts/notify-action) | ![GitHub release](https://img.shields.io/github/v/release/apialerts/notify-action?filter=!*-*) |
-| Zapier        | [zapier](https://github.com/apialerts/zapier)               | v3 Coming Soon                                                                                 |
+| Zapier        | [zapier](https://github.com/apialerts/zapier)               | v3 Coming Soon                                                                                  |
 
 ### Destinations
 
-- **Push Notifications** — available now via the mobile app
+Send one event, deliver it everywhere. All destinations are available now in open beta:
 
-### Coming Soon
+- **Push** - iOS and Android app
+- **Slack** - post to your channels
+- **Discord** - rich embeds to your server
+- **Email** - delivered via Amazon SES
+- **SMS** - Twilio-backed
+- **WhatsApp** - Twilio-backed
+- **Webhooks** - forward events as JSON to any URL
 
-A major release is coming in April 2026. API Alerts is expanding from push notifications to a full event routing platform. Route events to the channels your team already uses.
+### Open Beta
 
-- **Slack, Email, SMS, WhatsApp, Webhooks, Zapier** — new outbound destinations
-- All existing SDKs updated with new features and improvements
-- All Coming Soon SDKs launched alongside
-
-More destinations planned for 2026 and beyond.
+API Alerts 2.0 is in open beta: event routing and multi-destination delivery on top of push. Opt in from your dashboard, no waitlist. More destinations and inbound connectors (Microsoft Teams, Telegram, PagerDuty, and more) are planned through 2026.
 
 ### Get Started
 
